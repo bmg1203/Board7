@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+/*css 초기화*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+main {
+	width: 80%;
+	margin: 0 auto;
+}
+
+h2 {
+	margin: 15px 0px;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+table { width: 800px; }
+
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+ul, li {
+	list-style: none;
+}
+
+#menu {
+	width: 800px;
+	margin: 30px 0;
+	td {
+		text-align: center;
+		/*padding: 15px 10px;*/
+		background-color: black;
+		color: white;
+		border: 1px solid #00831c;
+		font-weight: bold;
+		&:hover {
+			background-color: #eafffb;
+			color: black
+		}
+		a {
+			color: white;
+			display: block;
+			text-decoration: none;
+			padding: 15px 10px;
+		}
+	}
+}
