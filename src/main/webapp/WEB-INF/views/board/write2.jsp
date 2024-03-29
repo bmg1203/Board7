@@ -30,10 +30,6 @@
 			width: 100px;
 		}
 		
-		input[readonly] {
-			background: #ebebeb;
-		}
-		
 		textarea {
 			width: 100%;
 			height: 250px;
@@ -71,12 +67,13 @@
 				<tr>
 					<td>작성자</td>
 					<td>
-						<select name="writer">
+						<!-- <select name="writer">
 							<option value="">===선택===</option>
 							<c:forEach var="user" items="${userList}">
 								<option value="${user.userid}" name="${user.userid}">${user.userid}</option>
 							</c:forEach>
-						</select>
+						</select>-->
+						<input type="text" name="writer" value="${sessionScope.login.userid}" readonly>
 					</td>
 					<!-- <td><input type="text" name="writer"></td> -->
 				</tr>
