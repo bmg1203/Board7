@@ -57,4 +57,11 @@
 	<delete id="deleteUser">
 		DELETE FROM TUSER WHERE USERID = #{userid}
 	</delete>
+	
+	
+	<!-- ========= -->
+	<!-- users/login -->
+	<select id="login">
+		SELECT USERID, USERNAME, EMAIL, UPOINT, TO_CHAR(INDATE, 'YYYY-MM-DD') INDATE FROM TUSER WHERE USERID = #{arg0} AND PASSWD = #{arg1}
+	</select>
 </mapper>
