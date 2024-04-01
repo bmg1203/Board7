@@ -42,16 +42,16 @@
 			<table>
 				<tr>
 					<td>아이디</td>
-					<td><input type="text" name="userid"></td>
+					<td><input type="text" name="userid" value="USER01"></td>
 				</tr>
 				<tr>
 					<td>비밀번호</td>
-					<td><input type="password" name="passwd"></td>
+					<td><input type="password" name="passwd" value="1234"></td>
 				</tr>
 				<tr>
 					<td colspan="2">
 						<input class="btn btn-primary" type="submit" value="로그인">
-						<input class="btn btn-outline-dark" type="button" value="home" id="goList">
+						<!-- <input class="btn btn-outline-dark" type="button" value="home" id="goList"> -->
 					</td>
 				</tr>
 			</table>

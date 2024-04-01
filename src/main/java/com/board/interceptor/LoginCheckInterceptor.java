@@ -26,6 +26,7 @@ public class LoginCheckInterceptor implements HandlerInterceptor {
 //			return true; //로그인 체크를 중단
 //		}
 		
+		//로그인 체크기능을 중지하려면 주석으로 처리
 		if(obj == null) {
 			//로그인하지 않음 /loginForm 으로 이동
 			response.sendRedirect("/loginForm");

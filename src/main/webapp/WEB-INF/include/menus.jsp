@@ -10,4 +10,9 @@
 				</a>
 			</td>
 		</c:forEach>
+<!-- 		<td> -->
+<%-- 			<a href="/Board/List?menu_id=${menu.menu_id}"> --%>
+<!-- 				자유게시판 -->
+<!-- 			</a> -->
+<!-- 		</td> -->
 	</table>
