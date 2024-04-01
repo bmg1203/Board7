@@ -27,11 +27,11 @@ public class LoginCheckInterceptor implements HandlerInterceptor {
 //		}
 		
 		//로그인 체크기능을 중지하려면 주석으로 처리
-		if(obj == null) {
-			//로그인하지 않음 /loginForm 으로 이동
-			response.sendRedirect("/loginForm");
-			return false;
-		}
+//		if(obj == null) {
+//			//로그인하지 않음 /loginForm 으로 이동
+//			response.sendRedirect("/loginForm");
+//			return false;
+//		}
 		
 		return HandlerInterceptor.super.preHandle(request, response, handler);
 	}

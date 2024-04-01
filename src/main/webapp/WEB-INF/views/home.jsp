@@ -57,9 +57,15 @@
 		<div id="title">게시물 옵션</div>
 		<hr style="color: #9ee2ff">
 		<div id="board">
-			<div><a class="btn btn-outline-primary" href="/Board/List?menu_id=MENU01"">게시물 목록</a></div>
+			<div><a class="btn btn-outline-primary" href="/Board/List?menu_id=MENU01">게시물 목록</a></div>
 			<div><a class="btn btn-outline-primary" href="/Board/WriteForm?menu_id=MENU01">게시물 등록</a></div>
 			<div><a class="btn btn-outline-primary" href="/Board/WriteForm2?menu_id=MENU01">게시물 등록2</a></div>
+		</div>
+		<div>&nbsp;</div>
+		
+		<div id="board">
+			<div><a class="btn btn-outline-primary" href="/BoardPaging/List?menu_id=MENU01">게시물 목록(페이징)</a></div>
+			<div><a class="btn btn-outline-primary" href="/BoardPaging/WriteForm2?menu_id=MENU01">게시물 등록2(페이징)</a></div>
 		</div>
 		<div>&nbsp;</div>
 		
